@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabuada</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <h1>Tabuada</h1>
+
+    <div class="form-group">
+        <h2>Operação matemática:</h2>
+
+        <input type="radio" name="operacao" value="Soma:"/>Soma
+        
+        <input type="radio" name="operacao" value="Subtração:"/>Subtração
+
+        <input type="radio" name="operacao" value="Multiplicação:"/>Multiplicação
+
+        <input type="radio" name="operacao" value="Divisão:"/>Divisão
+        
+        <h2>Número:</h2>
+        <input type="radio" name="numero" value="0">0
+        <input type="radio" name="numero" value="1">1
+        <input type="radio" name="numero" value="2">2
+        <input type="radio" name="numero" value="3">3
+        <input type="radio" name="numero" value="4">4
+        <input type="radio" name="numero" value="5">5
+        <input type="radio" name="numero" value="6">6
+        <input type="radio" name="numero" value="7">7
+        <input type="radio" name="numero" value="8">8
+        <input type="radio" name="numero" value="9">9 
+        <br> <br>
+        <button id="tabu" onclick="gerarTabuada()">Ver tabuada</button>
+        
+        <h2>Resultado:</h2>
+        <p id="titulotabu"></p>
+        <p id="corpotabu"></p>
+    </div>
+
+</body>
+</html>
